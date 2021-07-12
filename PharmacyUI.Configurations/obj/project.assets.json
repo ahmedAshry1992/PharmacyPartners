@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+      "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
       "projectName": "PharmacyUI.Configurations",
-      "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+      "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
       "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-      "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
+      "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

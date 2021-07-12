@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OQu8Ao+0g7hwiRod+0/CB2367dRzoEe3eANIQ1gaoK6HXniCD9D/NoFAr8q/RLocAM5zwYJ3JqzctxKtK1yFzg==",
+  "dgSpecHash": "/esydN4HPXGTAa6JWS7XEmzzXte5qUn5pYpBvQ3gIu6bm+c/52YNCpZi1KMNZF1bbumtQK5iJRx6tl2w2h0o1w==",
   "success": true,
-  "projectFilePath": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
+  "projectFilePath": "D:\\github\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a_ash\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.4\\microsoft.aspnetcore.mvc.razor.extensions.5.0.4.nupkg.sha512",
     "C:\\Users\\a_ash\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.4\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.4.nupkg.sha512",

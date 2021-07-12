@@ -859,11 +859,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
+      "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
       "projectName": "PharmacyPartners.UI",
-      "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
+      "projectPath": "D:\\github\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
       "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-      "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\obj\\",
+      "outputPath": "D:\\github\\PharmacyPartners\\PharmacyPartners.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -883,14 +883,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
-              "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
+            "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+              "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
             },
-            "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
-              "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj"
+            "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
+              "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj"
             },
-            "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
-              "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
+            "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+              "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
             }
           }
         }

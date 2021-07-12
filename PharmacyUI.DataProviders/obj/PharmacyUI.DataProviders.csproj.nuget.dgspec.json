@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {}
+    "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {}
   },
   "projects": {
-    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+    "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+        "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
         "projectName": "PharmacyUI.Configurations",
-        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+        "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
         "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
+        "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
+    "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
+        "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
         "projectName": "PharmacyUI.DataProviders",
-        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
+        "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
         "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\obj\\",
+        "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,11 +98,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
-                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
+              "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+                "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
               },
-              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
-                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
+              "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+                "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
               }
             }
           }
@@ -135,14 +135,14 @@
         }
       }
     },
-    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+    "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
+        "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
         "projectName": "PharmacyUI.Models",
-        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
+        "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
         "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\obj\\",
+        "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,14 @@
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.DataProviders.deps.json
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.DataProviders.dll
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.DataProviders.pdb
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.Configurations.dll
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.Models.dll
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.Configurations.pdb
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\bin\Debug\netcoreapp3.1\PharmacyUI.Models.pdb
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.csprojAssemblyReference.cache
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.AssemblyInfoInputs.cache
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.AssemblyInfo.cs
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.csproj.CoreCompileInputs.cache
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.csproj.CopyComplete
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.dll
+D:\web_projects\PharmacyPartners\PharmacyUI.DataProviders\obj\Debug\netcoreapp3.1\PharmacyUI.DataProviders.pdb

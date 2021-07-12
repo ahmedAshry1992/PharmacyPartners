@@ -1,0 +1,11 @@
+﻿@model IEnumerable<PharmacyUI.Models.WebRequest.Response.Services.Product>
+<table class="table table-hover " x-name="search" cellspacing="0" width="100%">
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="sel-prod-name" x-name="@item.englishName" >@item.englishName</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj": {}
+  },
+  "projects": {
+    "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
+        "projectName": "PharmacyPartners.UI",
+        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\PharmacyPartners.UI.csproj",
+        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
+        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyPartners.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
+              },
+              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
+                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj"
+              },
+              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+        "projectName": "PharmacyUI.Configurations",
+        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
+        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
+        "projectName": "PharmacyUI.DataProviders",
+        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
+        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
+        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.DataProviders\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
+              },
+              "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+                "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
+        "projectName": "PharmacyUI.Models",
+        "projectPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
+        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
+        "outputPath": "D:\\web_projects\\PharmacyPartners\\PharmacyUI.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

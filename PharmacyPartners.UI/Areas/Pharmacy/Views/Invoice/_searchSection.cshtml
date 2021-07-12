@@ -1,0 +1,38 @@
+﻿@model IEnumerable<PharmacyUI.Models.WebRequest.Response.Sales.Search>
+   
+<table id="demo-datatables-rowreorder-1" x-name="prod-grid" class="table table-hover table-striped dataTable dt-rowReorder" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th class="text-center">Select</th>
+            <th class="text-center">Code</th>
+            <th class="text-center">Product</th>
+            <th class="text-center">Items</th>
+            <th class="text-center">Price</th>
+            <th class="text-center">Expiry</th>
+        </tr>
+    </thead>
+
+    <tbody class="prod-table">
+        @if (Model.Count() != 0 || Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center"><button id="@item.code" class="btn btn-primary btn-xs addproduct" type="button" x-id="@item.code" x-name="@item.name" x-price="@item.price" x-expiry="@Convert.ToString(string.Format("{0:dd/MM/yyyy}", item.expiry))" x-items="@item.items" x-defitems="@item.defualtItems">Add</button></td>
+                    <td class="text-center" >@item.code</td>
+                    <td class="text-center">@item.name</td>
+                    <td class="text-center">@item.items</td>
+                    <td class="text-center">@item.price</td>
+                    <td class="text-center">@Convert.ToString(string.Format("{0:dd/MM/yyyy}", item.expiry))</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+

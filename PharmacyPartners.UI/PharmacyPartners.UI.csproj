@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PharmacyUI.Configurations\PharmacyUI.Configurations.csproj" />
+    <ProjectReference Include="..\PharmacyUI.DataProviders\PharmacyUI.DataProviders.csproj" />
+    <ProjectReference Include="..\PharmacyUI.Models\PharmacyUI.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\scripts\app\" />
+  </ItemGroup>
+
+</Project>

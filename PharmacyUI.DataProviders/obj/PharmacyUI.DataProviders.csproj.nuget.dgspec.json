@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {}
+    "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {}
   },
   "projects": {
-    "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+    "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+        "projectUniqueName": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
         "projectName": "PharmacyUI.Configurations",
-        "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
-        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
+        "projectPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj",
+        "packagesPath": "C:\\Users\\ashry\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Configurations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ashry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,24 +67,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
+    "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
+        "projectUniqueName": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
         "projectName": "PharmacyUI.DataProviders",
-        "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
-        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.DataProviders\\obj\\",
+        "projectPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.DataProviders\\PharmacyUI.DataProviders.csproj",
+        "packagesPath": "C:\\Users\\ashry\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.DataProviders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ashry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,11 +98,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
-                "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
+              "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj": {
+                "projectPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Configurations\\PharmacyUI.Configurations.csproj"
               },
-              "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
-                "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
+              "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+                "projectPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj"
               }
             }
           }
@@ -131,24 +131,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
+    "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
+        "projectUniqueName": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
         "projectName": "PharmacyUI.Models",
-        "projectPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
-        "packagesPath": "C:\\Users\\a_ash\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\PharmacyPartners\\PharmacyUI.Models\\obj\\",
+        "projectPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Models\\PharmacyUI.Models.csproj",
+        "packagesPath": "C:\\Users\\ashry\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\PharmacyPro\\PharmacyPartners\\PharmacyUI.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a_ash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ashry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

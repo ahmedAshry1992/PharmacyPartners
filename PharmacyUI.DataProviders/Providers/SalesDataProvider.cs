@@ -38,5 +38,10 @@ namespace PharmacyUI.DataProviders.Providers
         {
             return await APIInvoker.PostRequest<InvoiceCreateResponse>(request, APIOrigin.InvoiceCraete());
         }
+
+        public async Task<EditSalesInvoiceResponse> InvoiceEdit(SalesInvoiceRequest request)
+        {
+            return await APIInvoker.PostRequest<EditSalesInvoiceResponse>(new EditSalesInvoiceRequest() { salesInvoiceRequest= request}, APIOrigin.InvoiceEdit());
+        }
     }
 }

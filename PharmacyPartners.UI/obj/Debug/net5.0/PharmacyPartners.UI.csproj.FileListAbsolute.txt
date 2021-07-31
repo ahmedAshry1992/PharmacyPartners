@@ -709,7 +709,6 @@ D:\github\PharmacyPartners\PharmacyPartners.UI\bin\Debug\net5.0\PharmacyUI.Model
 D:\github\PharmacyPartners\PharmacyPartners.UI\bin\Debug\net5.0\PharmacyUI.Configurations.pdb
 D:\github\PharmacyPartners\PharmacyPartners.UI\bin\Debug\net5.0\PharmacyUI.DataProviders.pdb
 D:\github\PharmacyPartners\PharmacyPartners.UI\bin\Debug\net5.0\PharmacyUI.Models.pdb
-D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.csprojAssemblyReference.cache
 D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.GeneratedMSBuildEditorConfig.editorconfig
 D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.AssemblyInfoInputs.cache
 D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.AssemblyInfo.cs
@@ -750,3 +749,4 @@ D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners
 D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\ref\PharmacyPartners.UI.dll
 D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.pdb
 D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.genruntimeconfig.cache
+D:\github\PharmacyPartners\PharmacyPartners.UI\obj\Debug\net5.0\PharmacyPartners.UI.csproj.AssemblyReference.cache

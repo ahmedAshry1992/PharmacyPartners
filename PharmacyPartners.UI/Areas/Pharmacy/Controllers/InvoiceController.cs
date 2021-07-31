@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using PharmacyPartners.UI.Infrastructre.Extensions;
 using PharmacyUI.DataProviders.IProviders;
 using PharmacyUI.Models.WebRequest.Request.Invoice;
+using PharmacyUI.Models.WebRequest.Response.Invoice;
 using PharmacyUI.Models.WebRequest.Response.Management;
 using System;
 using System.Collections.Generic;
@@ -86,7 +87,16 @@ namespace PharmacyPartners.UI.Areas.Pharmacy.Controllers
         #endregion
 
         #region API
-
+        [HttpPost]
+        [Route("/invoice/edit", Name = "invoicedit")]
+        public async Task<EditSalesInvoiceResponse> EditSalesInvoice(EditSalesInvoiceRequest request)
+        {
+            var userId = User.Identity.GetUserId();
+            
+                request.salesInvoiceRequest.userId = userId;
+                var response = await _salesDataProvider.InvoiceEdit(request.salesInvoiceRequest);
+                return response;            
+        }
         #endregion
     }
 }

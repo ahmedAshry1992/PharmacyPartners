@@ -32,6 +32,12 @@ namespace PharmacyUI.Configurations.Helpers
         {
             return $"{endPoint}/invoice/sales/add";
         }
+        public static string InvoiceEdit()
+        {
+            return $"{endPoint}/invoice/sales/edit";
+        }
+
+        
         public static string ProdctSearch()
         {
             return $"{endPoint}/servises/product/search";

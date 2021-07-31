@@ -17,5 +17,6 @@ namespace PharmacyUI.DataProviders.IProviders
         Task<InvoiceTypeResponse> InvoiceTypes();
         Task<CuctomerResponse> customerSearch(string request);
         Task<InvoiceCreateResponse> InvoiceCreate(SalesInvoiceRequest request);
+        Task<EditSalesInvoiceResponse> InvoiceEdit(SalesInvoiceRequest request);
     }
 }

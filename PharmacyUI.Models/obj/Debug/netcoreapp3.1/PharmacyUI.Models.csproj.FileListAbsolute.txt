@@ -10,9 +10,9 @@ D:\web_projects\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\Pharm
 D:\github\PharmacyPartners\PharmacyUI.Models\bin\Debug\netcoreapp3.1\PharmacyUI.Models.deps.json
 D:\github\PharmacyPartners\PharmacyUI.Models\bin\Debug\netcoreapp3.1\PharmacyUI.Models.dll
 D:\github\PharmacyPartners\PharmacyUI.Models\bin\Debug\netcoreapp3.1\PharmacyUI.Models.pdb
-D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.csprojAssemblyReference.cache
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.AssemblyInfoInputs.cache
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.AssemblyInfo.cs
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.csproj.CoreCompileInputs.cache
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.dll
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.pdb
+D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.csproj.AssemblyReference.cache

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PharmacyUI.Models.WebRequest.Response;
 using PharmacyPartners.UI.Infrastructre.Extensions;
 using PharmacyUI.DataProviders.IProviders;
 using PharmacyUI.Models.WebRequest.Request.Invoice;
@@ -10,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace PharmacyPartners.UI.Areas.Pharmacy.Controllers
 {
@@ -22,34 +24,27 @@ namespace PharmacyPartners.UI.Areas.Pharmacy.Controllers
         {
             _salesDataProvider = salesDataProvider;
         }
-        
+        #region Sales Invoice
         [Route("/invoice/create", Name = "invoicecreate")]
         public async Task<IActionResult> CreateSalesInvoice()
         {
             var invTypes = await _salesDataProvider.InvoiceTypes();
-            if (invTypes.success&& invTypes.data.Count()>0)
+            if (invTypes.success && invTypes.data.Count() > 0)
             {
                 ViewBag.invoiceTypes = invTypes.data;
             }
             return View();
         }
-        [HttpPost]
-        [Route("/invoice/create", Name = "invoicecreate")]
-        public async Task<IActionResult> CreateSalesInvoice(SalesInvoiceRequest request)
-        {
-            var userId= User.Identity.GetUserId();
-            if (request!=null && request.salesProducts.Count()!= 0)
-            {
-                request.userId = userId;
-                var response= await _salesDataProvider.InvoiceCreate(request);
-                if (response.success && response.data!=null)
-                {
-                    return RedirectToAction("CreateSalesInvoice");
-                }
-            }
+        #endregion
 
+        #region Purchase Invoice
+        [Route("/invoice/puchase/create", Name = "invoicepuchasecreate")]
+        public async Task<IActionResult> CreatePurchaseInvoice()
+        {
             return View();
         }
+        #endregion
+
 
         #region Partial views
 
@@ -87,16 +82,50 @@ namespace PharmacyPartners.UI.Areas.Pharmacy.Controllers
         #endregion
 
         #region API
+        #region Sales Invoice
+        [HttpPost]
+        [Route("/invoice/create", Name = "invoicecreate")]
+        public async Task<Infrastructre.API.ResponseBuilder> CreateSalesInvoice(EditSalesInvoiceRequest request)
+        {
+            var userId = User.Identity.GetUserId();
+            if (request != null && request.salesInvoiceRequest.salesProducts.Count() != 0)
+            {
+                request.salesInvoiceRequest.userId = userId;
+                var response = await _salesDataProvider.InvoiceCreate(request);
+                if (response.success && response.data != null)
+                {
+                    return Infrastructre.API.ResponseBuilder.CreateResponseBilder(HttpStatusCode.OK, response);
+                }
+            }
+
+            return Infrastructre.API.ResponseBuilder.CreateResponseBilder(HttpStatusCode.InternalServerError, null);
+        }
         [HttpPost]
         [Route("/invoice/edit", Name = "invoicedit")]
         public async Task<EditSalesInvoiceResponse> EditSalesInvoice(EditSalesInvoiceRequest request)
         {
             var userId = User.Identity.GetUserId();
-            
-                request.salesInvoiceRequest.userId = userId;
-                var response = await _salesDataProvider.InvoiceEdit(request.salesInvoiceRequest);
-                return response;            
+
+            request.salesInvoiceRequest.userId = userId;
+            var response = await _salesDataProvider.InvoiceEdit(request.salesInvoiceRequest);
+            return response;
         }
+
+        [HttpPost]
+        [Route("/invoicedet/delete", Name = "invoicdetdel")]
+        public async Task<ResponseBuilder> SalesInvoiceDetailsDel(int request)
+        {
+            var userId = User.Identity.GetUserId();
+
+            var response = await _salesDataProvider.DeleteInvoiceDet(request);
+            return response;
+        }
+
+
+        #endregion
+
+        #region Purchase Invoice
+        #endregion
         #endregion
     }
 }

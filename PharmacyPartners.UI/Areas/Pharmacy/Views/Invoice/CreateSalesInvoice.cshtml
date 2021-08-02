@@ -313,6 +313,7 @@
                 $(".addr-block").hide();
                 $('.autocomplete').empty();
                 $('.cus-drdn').hide();
+                invoiceObjectEdit('.');
 
             }
         });
@@ -330,7 +331,7 @@
                 var expiry = $dom.attr("x-expiry")
                 net = (price / defItems) * items;
 
-                var $dom = '<tr invDetId="" > <td>' + '<input  readonly class="form-control invDetId ' + id + '"  type="text" />'+'<input  readonly class="form-control code" type="text"  value="' + id + '"/>' + '</td><td >' + '<input  class="form-control" readonly type="text"  value="' + name + '"/>' + '</td><td >' + '<input  class="form-control" type="text" readonly style="width: 95px;" value="' + expiry + '"/>' + '</td>1<td >' + '<input  class="form-control" type="text" readonly  value="' + price + '"/>' + '</td><td >' + '<input class="form-control" type="text" readonly value="' + 1 + '"/>' + '</td><td>' + '<input class="form-control prodquantity" type="number" min="' + 1 + '" max="' + items + '"  value="' + items + '"/>' + '</td><td>' + '<input  class="form-control sale"  type="text" readonly value="' + net + '"/>' + '</td><td>' + '<input  class="form-control discountrat" style="width: 70px;" type="number" min="' + 0 + '" max="' + 10 + '"  value="' + 0 + '"/>' + '</td> <td>' + '<input  readonly class="form-control discoutval" type="text"  value="' + 0 + '"/>' + '</td><td>' + '<input  class="form-control net" type="text" readonly value="' + net + '"/>' + '</td><td>' + '<button class="btn btn-primary btn-xs deleteproduct" x-delprod="' + id + '" type="button" >Delete</button>' + '</td></tr>';
+                var $dom = '<tr invDetId="" > <td>' + '<input type="hidden" readonly class="form-control invDetId ' + id + '"  type="text" />'+'<input  readonly class="form-control code" type="text"  value="' + id + '"/>' + '</td><td >' + '<input  class="form-control" readonly type="text"  value="' + name + '"/>' + '</td><td >' + '<input  class="form-control" type="text" readonly style="width: 95px;" value="' + expiry + '"/>' + '</td>1<td >' + '<input  class="form-control" type="text" readonly  value="' + price + '"/>' + '</td><td >' + '<input class="form-control" type="text" readonly value="' + 1 + '"/>' + '</td><td>' + '<input class="form-control prodquantity" type="number" min="' + 1 + '" max="' + items + '"  value="' + items + '"/>' + '</td><td>' + '<input  class="form-control sale"  type="text" readonly value="' + net + '"/>' + '</td><td>' + '<input  class="form-control discountrat" style="width: 70px;" type="number" min="' + 0 + '" max="' + 10 + '"  value="' + 0 + '"/>' + '</td> <td>' + '<input  readonly class="form-control discoutval" type="text"  value="' + 0 + '"/>' + '</td><td>' + '<input  class="form-control net" type="text" readonly value="' + net + '"/>' + '</td><td>' + '<button class="btn btn-primary btn-xs deleteproduct" x-delprod="' + id + '" type="button" >Delete</button>' + '</td></tr>';
 
                 $('.dyna-tbody1').append(
                     $dom
@@ -345,6 +346,10 @@
 
         $(".billtable").on("click", ".deleteproduct", function () {
             var $dom = $(this).closest("tr");
+            var invdetId = $dom.find(".invDetId").val();
+            
+            pharmacy.Globals.MakeAjaxCall("Post", "invoicedet/delete?request=" + invdetId, function (response) { });
+            
             $dom.remove();
             recalculeTotal();
             var remid = $(this).attr("x-delprod");
@@ -420,6 +425,7 @@
             $(".code-block").show();
             $(".phon-block").show();
             $(".addr-block").show();
+            invoiceObjectEdit('.');
             $('.autocomplete').empty();
             $('.cus-drdn').hide();
 
@@ -427,9 +433,12 @@
 
         $("body").off("click", ".saveinv").on("click", ".saveinv", function () {
             if (validateInvoice()) {
-                var data = invoiceObjectCreate(1);
+                var data = invoiceObjectCreate(5);
 
-                pharmacy.Globals.MakeAjaxCall("Post", "invoice/create", data, function (response) { });
+                pharmacy.Globals.MakeAjaxCall("Post", "invoice/create", data, function (response) {
+                    console.log(response)
+                });
+                location.replace("create");
             }
             //console.log(data);
 
@@ -449,23 +458,27 @@
 
         function invoiceObjectCreate(status) {
             var invObject = {
-                userId: 0,
-                customerId: $(".customerName").attr("x-cusid"),
-                statusId: status,
-                typeId: parseInt($(".inv-type").val()),
-                salesProducts: []
+                salesInvoiceRequest: {
+                    id: invoiceId,
+                    userId: 0,
+                    customerId: $(".customerName").attr("x-cusid"),
+                    statusId: status,
+                    typeId: parseInt($(".inv-type").val()),
+                    salesProducts: []
+                }
             };
             $.each($(".dyna-tbody1 tr"), function () {
                 var $dom = $(this).closest('tr');
                 var pro = {
-                    invoiceId: 0,
+                    id: $dom.find(".invDetId").val(),
+                    invoiceId: invoiceId,
                     productToSellId: $dom.find(".code").val(),
                     discount: parseFloat($dom.find(".discountrat").val()) / 100,
                     items: $dom.find(".prodquantity").val()
                 }
-                invObject.salesProducts.push(pro);
+                invObject.salesInvoiceRequest.salesProducts.push(pro);
             });
-            
+            return invObject;
         }
 
         function invoiceObjectEdit(element) {
@@ -475,7 +488,7 @@
                     id: invoiceId,
                     userId: 0,
                     customerId: $(".customerName").attr("x-cusid"),
-                    statusId: 2,
+                    statusId: 1,
                     typeId: parseInt($(".inv-type").val()),
                     salesProducts: []
                 },

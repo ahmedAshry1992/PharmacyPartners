@@ -16,3 +16,12 @@ D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.dll
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.pdb
 D:\github\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.csproj.AssemblyReference.cache
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\bin\Debug\netcoreapp3.1\PharmacyUI.Models.deps.json
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\bin\Debug\netcoreapp3.1\PharmacyUI.Models.dll
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\bin\Debug\netcoreapp3.1\PharmacyUI.Models.pdb
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.csprojAssemblyReference.cache
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.AssemblyInfoInputs.cache
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.AssemblyInfo.cs
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.csproj.CoreCompileInputs.cache
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.dll
+D:\work\PharmacyPro\PharmacyPartners\PharmacyUI.Models\obj\Debug\netcoreapp3.1\PharmacyUI.Models.pdb

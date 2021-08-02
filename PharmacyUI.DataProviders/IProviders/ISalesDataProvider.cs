@@ -1,4 +1,5 @@
 ﻿using PharmacyUI.Models.WebRequest.Request.Invoice;
+using PharmacyUI.Models.WebRequest.Response;
 using PharmacyUI.Models.WebRequest.Response.Invoice;
 using PharmacyUI.Models.WebRequest.Response.Management;
 using PharmacyUI.Models.WebRequest.Response.Sales;
@@ -16,7 +17,8 @@ namespace PharmacyUI.DataProviders.IProviders
         Task<ProductResponse> ProdctSearchByName(string request);
         Task<InvoiceTypeResponse> InvoiceTypes();
         Task<CuctomerResponse> customerSearch(string request);
-        Task<InvoiceCreateResponse> InvoiceCreate(SalesInvoiceRequest request);
+        Task<InvoiceCreateResponse> InvoiceCreate(EditSalesInvoiceRequest request);
         Task<EditSalesInvoiceResponse> InvoiceEdit(SalesInvoiceRequest request);
+        Task<ResponseBuilder> DeleteInvoiceDet(int request);
     }
 }
